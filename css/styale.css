@@ -5,12 +5,8 @@ body {
   padding: 0;
 }
 
-.PC{
+.PC {
   text-align: center;
-}
-
-section{
-
 }
 
 header {
@@ -44,13 +40,7 @@ header {
   text-decoration: underline;
 }
 
-.content {
-  padding: 20px;
-}
 
-section {
-  margin: 50px 0;
-}
 
 .fixed {
   position: fixed;
@@ -62,10 +52,12 @@ section {
   z-index: 1000;
 }
 
-.fixed .navbar {
+.navbar {
   background-color: #333;
 }
 
-.fixed .nav-menu a {
+
+
+.nav-menu a {
   color: white;
 }

@@ -7,7 +7,7 @@ const headerOffsetTop = header.offsetTop;
 // スクロールイベントを監視
 window.addEventListener('scroll', () => {
   // ユーザーのスクロール位置がヘッダーのオフセット位置を超えたら固定
-  if (window.pageYOffset > headerOffsetTop) {
+  if (window.scrollY > headerOffsetTop) {
     header.classList.add('fixed');
   } else {
     header.classList.remove('fixed');
